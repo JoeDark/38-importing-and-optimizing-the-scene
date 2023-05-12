@@ -29,4 +29,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./src
-          
+          target_branch: main # Change to the name of your target branch
