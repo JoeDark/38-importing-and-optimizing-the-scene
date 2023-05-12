@@ -27,11 +27,11 @@ jobs:
       - name: Add SSH key to agent
         uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-key: ${{ secrets.GIT_PAGE_DEPLOY }}
+          ssh-private-key: AAA111
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.GIT_PAGE_DEPLOY }}
+          deploy_key: AAA111
           publish_dir: ./src
           cname: your-custom-domain.com # optional
