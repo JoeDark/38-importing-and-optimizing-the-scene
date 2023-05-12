@@ -10,6 +10,8 @@ npm install
 
 # Run the local server at localhost:8080
 npm run dev
+  
+  Add this line to test on commit
 
 # Build for production in the dist/ directory
 npm run build
